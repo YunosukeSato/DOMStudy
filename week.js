@@ -26,3 +26,11 @@ switch(day) {
   default:
     console.log("Something went horribly wrong...");
 }
+
+let x = 0;
+
+do {
+  // Increment variable by 1
+  x++;
+  console.log(x);
+} while(false);
